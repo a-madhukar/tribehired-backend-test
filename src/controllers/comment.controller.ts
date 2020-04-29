@@ -28,7 +28,6 @@ export class CommentController {
                         }
                     }
                 }
-                break;
             }
             res.status(OK).json({ data: Object.values(filteredComments), meta: null });
             return;
